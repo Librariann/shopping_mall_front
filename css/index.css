@@ -1,0 +1,46 @@
+#main{
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+.sub_slide_list{
+    margin-top: 20px;
+    font-size:0;
+}
+.sub_slide_list li{
+    display: inline-block;
+    width: calc(30% - 30px);
+    height: 330px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: top;
+    color: #fff;
+    overflow: hidden;
+}
+.sub_slide_list li:first-child{
+    width: calc(40% + 40px);
+    margin-left: 0;
+    background: url(../images/main/banner_01.jpg) center no-repeat;
+}
+.sub_slide_list li:nth-child(2){
+    background: url(../images/main/banner_02.jpg) center no-repeat;
+}
+.best_item{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.section_title{
+    font-weight: 600;
+    color: #777;
+    letter-spacing: 5px;
+}
+.product_list{
+    margin-top: 25px;
+}
+.product_list li{
+    width: 25%;
+}
+.product_list li .text_box *{
+    margin-top: 10px;
+    font-size: 11px;
+}

@@ -1,0 +1,44 @@
+.list_section{
+    margin-top: 25px;
+    text-align: center;
+}
+.section_title{
+    font-weight: 600;
+    color: #777;
+    letter-spacing: 5px;
+}
+.product_list{
+    margin-top: 25px;
+}
+.product_list li{
+    width: 25%;
+}
+.product_list li .text_box *{
+    margin-top: 10px;
+    font-size: 11px;
+}
+.all_list{
+    margin-top: 25px;
+    padding-top: 100px;
+    border-top: 1px solid rgba(102,102,102,0.3);
+}
+.total{
+    display: inline-block;
+    width: calc(100% - 400px);
+    text-align: left;
+}
+.total strong{
+    font-size: 12px;
+}
+.fliter_list{
+    display: block;
+    float: right;
+}
+.fliter_list li{
+    float: left;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.fliter_list li:first-child{
+    margin-left: 0;
+}
